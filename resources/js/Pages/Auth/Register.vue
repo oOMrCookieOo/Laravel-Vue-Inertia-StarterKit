@@ -86,19 +86,19 @@ const submit = () => {
                             <InputError :message="form.errors.password" class="mt-2"/>
                         </div>
                         <div class="grid gap-2">
-                            <Label for="password_confirmation" value="Confirm Password" >Confirm Password</Label>
+                            <Label for="password_confirmation" value="Confirm Password">Confirm Password</Label>
 
                             <Input
                                 id="password_confirmation"
-                                type="password"
-                                placeholder="********"
-                                class="mt-1 block w-full"
                                 v-model="form.password_confirmation"
-                                required
                                 autocomplete="new-password"
+                                class="mt-1 block w-full"
+                                placeholder="********"
+                                required
+                                type="password"
                             />
 
-                            <InputError class="mt-2" :message="form.errors.password_confirmation" />
+                            <InputError :message="form.errors.password_confirmation" class="mt-2"/>
                         </div>
                         <Button :disabled="form.processing" class="w-full flex items-center gap-2" type="submit">
                             <Loader2Icon v-if="form.processing" class="size-4 animate-spin"/>

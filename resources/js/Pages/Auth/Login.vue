@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import Checkbox from '@/Components/Checkbox.vue';
+<script lang="ts" setup>
 import GuestLayout from '@/Layouts/GuestLayout.vue';
 import InputError from '@/Components/InputError.vue';
-import InputLabel from '@/Components/InputLabel.vue';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
-import TextInput from '@/Components/TextInput.vue';
-import { Head, Link, useForm } from '@inertiajs/vue3';
+import {Head, Link, useForm} from '@inertiajs/vue3';
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/Components/ui/card";
 import {Loader2Icon} from "lucide-vue-next";
 import {Button} from "@/Components/ui/button";
@@ -34,7 +30,7 @@ const submit = () => {
 
 <template>
     <GuestLayout>
-        <Head title="Log in" />
+        <Head title="Log in"/>
         <div v-if="status" class="mb-4 font-medium text-sm text-green-600">
             {{ status }}
         </div>
