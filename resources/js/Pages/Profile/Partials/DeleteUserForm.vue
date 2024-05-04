@@ -37,20 +37,21 @@ const closeModal = () => {
 
     form.reset();
 };
+import {Button} from "@/Components/ui/button";
+import {Label} from "@/Components/ui/label";
+import {Input} from "@/Components/ui/input";
 </script>
 
 <template>
     <section class="space-y-6">
         <header>
-            <h2 class="text-lg font-medium text-gray-900">Delete Account</h2>
-
             <p class="mt-1 text-sm text-gray-600">
                 Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting
                 your account, please download any data or information that you wish to retain.
             </p>
         </header>
 
-        <DangerButton @click="confirmUserDeletion">Delete Account</DangerButton>
+        <Button variant="destructive" @click="confirmUserDeletion">Delete Account</Button>
 
         <Modal :show="confirmingUserDeletion" @close="closeModal">
             <div class="p-6">
@@ -64,9 +65,9 @@ const closeModal = () => {
                 </p>
 
                 <div class="mt-6">
-                    <InputLabel for="password" value="Password" class="sr-only" />
+                    <Label for="password" value="Password" class="sr-only" >Password</Label>
 
-                    <TextInput
+                    <Input
                         id="password"
                         ref="passwordInput"
                         v-model="form.password"
@@ -80,16 +81,17 @@ const closeModal = () => {
                 </div>
 
                 <div class="mt-6 flex justify-end">
-                    <SecondaryButton @click="closeModal"> Cancel </SecondaryButton>
+                    <Button variant="outline" @click="closeModal"> Cancel </Button>
 
-                    <DangerButton
+                    <Button
+                        variant="destructive"
                         class="ms-3"
                         :class="{ 'opacity-25': form.processing }"
                         :disabled="form.processing"
                         @click="deleteUser"
                     >
                         Delete Account
-                    </DangerButton>
+                    </Button>
                 </div>
             </div>
         </Modal>
