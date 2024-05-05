@@ -14,14 +14,9 @@
 
 <img  src="https://raw.githubusercontent.com/oOMrCookieOo/Laravel-Vue-Inertia-StarterKit/main/public/screenshot.png" alt="screenshot">
 
-There are many great laravel starter kit's and admin panels; however,  I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+There are many great laravel starter kit's and admin panels; however,  I wanted to create a template that is both a good
+starting point for new projects, and also a beautiful and useful admin panel that you can build on. So I created this
+Laravel Vue Inertia Starter Kit.
 
 ### Built With
 
