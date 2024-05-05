@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="830" height="455" src="">
+<img  src="https://raw.githubusercontent.com/oOMrCookieOo/Laravel-Vue-Inertia-StarterKit/main/public/screenshot.png" alt="screenshot">
 
 There are many great laravel starter kit's and admin panels; however,  I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -71,9 +71,8 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 <!-- LICENSE -->
+
 ## License
 
 Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
