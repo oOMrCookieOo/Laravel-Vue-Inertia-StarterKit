@@ -19,6 +19,6 @@ console.log()
             </div>
         </div>
 
-        <Toaster closeButton expand position="top-right" richColors/>
+        <Toaster closeButton expand position="top-right" />
     </div>
 </template>

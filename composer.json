@@ -12,10 +12,13 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "robertboes/inertia-breadcrumbs": "^0.6.0",
+        "spatie/laravel-permission": "^6.7",
         "tightenco/ziggy": "^2.0"
     },
     "require-dev": {
+        "doctrine/dbal": "^4.0",
         "fakerphp/faker": "^1.23",
+        "fumeapp/modeltyper": "^2.5",
         "laravel/breeze": "^2.0",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",

@@ -5,7 +5,7 @@ import SidebarLink from "@/Components/Layout/Partials/SidebarLink.vue";
 
 <template>
 
-    <SidebarLink :Icon="CogIcon" class="my-1 mb-4" label="Settings" routeName="profile.edit"/>
+    <SidebarLink :Icon="CogIcon" class="my-1 mb-4" label="Settings" :activeIn="['profile.edit']" routeName="profile.edit"/>
 
 </template>
 
