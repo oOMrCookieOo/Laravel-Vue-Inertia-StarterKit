@@ -39,7 +39,7 @@ Laravel Vue Inertia Starter Kit.
 - [x] Add the navigation
 - [x] Add the login form
 - [ ] Add users management example (CRUD)
-- [ ] Add roles & permission management (spatie/laravel-permission)
+- [x] Add roles & permission management (spatie/laravel-permission)
 - [ ] Multi-language Support & translations
     - [x] English
     - [ ] Arabic
