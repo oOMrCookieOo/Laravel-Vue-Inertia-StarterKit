@@ -37,7 +37,6 @@ class RoleObserver
     public function updated(Role $role): void
     {
 
-        dd('here');
     }
 
     /**
